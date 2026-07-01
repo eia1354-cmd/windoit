@@ -1,0 +1,118 @@
+html_content = """<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WINDOIT | درب و پنجره دوجداره لوکس</title>
+    <!-- Google Font: Vazirmatn -->
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-content">
+            <div class="logo">WINDOIT</div>
+            <a href="#contact" class="nav-cta">مشاوره رایگان</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>طراحی و اجرای درب و پنجره‌های دوجداره لوکس</h1>
+            <p>ترکیب مهندسی دقیق، متریال درجه یک و اجرای استاندارد برای پروژه‌های معماری برند و ساختمان‌های لوکس.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">بررسی پروژه شما</a>
+                <a href="#services" class="btn-secondary">خدمات ما</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section light">
+        <div class="container">
+            <h2>درباره WINDOIT</h2>
+            <p style="max-width: 800px; margin: 0 auto; font-size: 1.1rem; color: #555;">
+                در WINDOIT ما فقط درب و پنجره نصب نمی‌کنیم؛ ما مرز بین معماری مدرن و عملکرد مهندسی را بازتعریف می‌کنیم. با تمرکز بر استانداردهای روز دنیا و استفاده از متریال درجه یک، پروژه‌های مسکونی لوکس و ساختمان‌های شاخص را تا رسیدن به بالاترین کیفیت همراهی می‌کنیم.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="grid-3">
+                <div class="card">
+                    <h3>استاندارد اجرا</h3>
+                    <p>نصب تخصصی با رعایت دقیق‌ترین استانداردهای مهندسی و آب‌بندی کامل.</p>
+                </div>
+                <div class="card">
+                    <h3>متریال درجه یک</h3>
+                    <p>استفاده از بهترین پروفیل‌های UPVC و آلومینیوم ترمال‌بریک و یراق‌آلات برند.</p>
+                </div>
+                <div class="card">
+                    <h3>خدمات پس از فروش</h3>
+                    <p>پشتیبانی واقعی و پاسخ‌گویی سریع در کوتاه‌ترین زمان ممکن پس از اجرای پروژه.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section light">
+        <div class="container">
+            <h2 style="margin-bottom: 50px;">خدمات ما</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>مشاوره تخصصی پروژه</h3>
+                    <p>تحلیل دقیق نیازهای نقشه و ارائه بهترین پیشنهاد فنی متناسب با بودجه و طراحی معماری شما.</p>
+                </div>
+                <div class="card">
+                    <h3>طراحی فنی سیستم‌ها</h3>
+                    <p>انتخاب اصولی سیستم‌های UPVC یا آلومینیوم ترمال بریک بر اساس محاسبات بار باد و انرژی.</p>
+                </div>
+                <div class="card">
+                    <h3>تولید و اجرای دقیق</h3>
+                    <p>ساخت با ماشین‌آلات مدرن و نصب توسط تیم‌های آموزش‌دیده و با تجربه در پروژه‌های لوکس.</p>
+                </div>
+                <div class="card">
+                    <h3>پشتیبانی و گارانتی</h3>
+                    <p>ارائه گارانتی معتبر و خدمات نگهداری دوره‌ای برای تضمین عملکرد طولانی‌مدت بازشوها.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>پروژه شما آماده بررسی است؟</h2>
+            <p style="margin-bottom: 30px; color: #666;">قبل از تصمیم‌گیری نهایی، از مشاوره فنی و رایگان مهندسان ما استفاده کنید.</p>
+            <a href="#contact" class="btn-primary">دریافت مشاوره تخصصی</a>
+        </div>
+    </section>
+
+    <section id="contact" class="section light">
+        <div class="container" style="max-width: 600px;">
+            <h2>ارتباط با ما</h2>
+            <p style="margin-bottom: 40px;">جهت هماهنگی جلسات مشاوره یا ارسال نقشه‌ها، از راه‌های زیر با ما در تماس باشید.</p>
+
+<div class="card" style="text-align: right; padding: 30px;">
+                <p><strong>تلفن تماس:</strong> 09XXXXXXXXX</p>
+                <p><strong>ایمیل:</strong> info@windoit.ir</p>
+                <p><strong>دفتر مرکزی:</strong> تهران، ایران</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>©️ 2026 WINDOIT. تمامی حقوق مادی و معنوی محفوظ است.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+"""
+
+with open("/mnt/data/index.html", "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+print("File index.html created successfully.")
