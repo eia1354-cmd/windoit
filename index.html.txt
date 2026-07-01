@@ -1,4 +1,4 @@
-html_content = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
@@ -110,9 +110,3 @@ html_content = """<!DOCTYPE html>
     <script src="script.js"></script>
 </body>
 </html>
-"""
-
-with open("/mnt/data/index.html", "w", encoding="utf-8") as f:
-    f.write(html_content)
-
-print("File index.html created successfully.")
